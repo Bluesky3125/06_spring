@@ -1,6 +1,4 @@
-github
-
-chap01-bean-factory-lecture-source/.gradle
+.gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
