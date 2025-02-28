@@ -1,4 +1,4 @@
-package com.ohgiraffers.section01.common;
+package com.ohgiraffers.section01.autowired.common;
 
 import java.util.List;
 
