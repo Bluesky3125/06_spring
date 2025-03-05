@@ -36,4 +36,11 @@ public class ContextConfiguration {
     public Product strawberryMilk() {
         return new Beverage(strawberryMilkName, strawberryMilkPrice, strawberryMilkCapacity);
     }
+
+    @Bean
+    public Product water(@Value("${beverage.water.name}") String waterName,
+                         @Value("${beverage.water.price}") int waterPrice,
+                                 @Value("${beverage.water.capacity}") int waterCapacity) {
+        return new Beverage(waterName, waterPrice, waterCapacity);
+    }
 }
